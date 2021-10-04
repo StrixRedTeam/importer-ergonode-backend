@@ -36,3 +36,6 @@ services:
                 - '@Ergonode\ImporterErgonode1\Infrastructure\Processor\Step\ErgonodeSimpleProductProcessorStep'
                 - '@Ergonode\ImporterErgonode1\Infrastructure\Processor\Step\ErgonodeGroupingProductProcessorStep'
                 - '@Ergonode\ImporterErgonode1\Infrastructure\Processor\Step\ErgonodeVariableProductProcessorStep'
+
+    Ergonode\Importer\Infrastructure\Action\Process\Product\Strategy\ImportProductGalleryAttributeStrategy:
+        class: Ergonode\ImporterErgonode1\Infrastructure\Action\Process\Product\Strategy\ImportProductGalleryAttributeStrategy
