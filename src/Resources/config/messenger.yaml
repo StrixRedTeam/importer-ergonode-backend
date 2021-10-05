@@ -1,0 +1,5 @@
+framework:
+  messenger:
+    routing:
+      Ergonode\ImporterErgonode1\Domain\Command\Import\ImportMultimediaFromDataCommand: '%ergonode.importer.messenger_transport_name%'
+      Ergonode\ImporterErgonode1\Domain\Command\Import\ImportMultimediaFromUrlCommand: '%ergonode.importer.messenger_transport_name%'
